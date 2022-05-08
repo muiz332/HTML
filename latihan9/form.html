@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form html</title>
+    </head>
+    <body>
+        <!--form berfungsi membuat kolom input untuk memasukkan data seperti nama,alamat,tanggal lahir dan lain-lain-->
+
+         <!--elemen elemen yang ada di tag form-->
+
+         <!--input--> <!--ada text,checkbox,radio,submit(mengirim data), reset(menghapus data), button,passowrd,dll-->
+
+         <!--label--> <!--untuk menandai elemen-->
+         <!--select--> <!--ada option-->
+
+         <!--button-->  
+
+         <!--textarea--> <!--tulis sesuai keinginan anda-->  <!--biasanya digunakan untuk menulis komentar-->
+
+         <!--placehorder--> <!--tulis sesuai keinginan anda-->
+         <!--untuk text melayang-->
+
+        <form action="">
+                <!--contoh input type="text"-->
+                <label for="masukkan nama">masukkan nama :</label>
+                <!--jika anda ingin mengeklik masukkan nama lalu lansung menuli maka kurung dengan tag label-->
+                    <input type="text" placeholder="masukkan nama" id="masukkan nama"><br><br>
+
+                    <!--contoh input type="password"-->
+                <label for="">masukkan password :</label>
+                <input type="password"><br>
+
+                <h2>jangan sampai jenis kelamin bisa memilih 2 jenis (contoh yang salah)</h2>
+
+                <label for="pa">jenis kelamin :</label>
+                <input type="radio" id="pa">laki-laki
+                <label for="pr"></label>
+                <input type="radio" id="pr">perempuan
+    
+                <!--berikan atibut name pada input dan tulis sesuai keinginan anda-->
+
+                <h2>contoh yang benar</h2>
+
+                <label for="pria">jenis kelamin :</label>
+                <input type="radio" id="pria" name="jenis kelamin"> <label for="pria">laki laki</label>
+
+                <label for="wanita"></label>
+                <input type="radio" id="wanita" name="jenis kelamin"><label for="wanita">perempuan</label>
+
+                <!--kalau memilih lebih dari 1 jangan gunakan radio tetapi gunakan checkbox-->
+
+                <h2>contoh checkbox</h2>
+                <label for="">skill :</label>
+                <input type="checkbox" id="html"><label for="html">html</label>
+
+                <input type="checkbox" id="css"><label for="css">css</label>
+
+                <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label><br><br>
+                <input type="submit">
+
+                <h2>contoh textarea</h2>
+                <!--digunakan untuk membuat komentar-->
+                <label for="komentar">komentar--</label><br>
+                <textarea id="komentar"></textarea>
+
+                <h2>contoh select</h2>
+                <select>
+                    <option>malang</option>
+                    <option>bandung</option>
+                    <option>surabaya</option>
+                </select>
+
+                <h2>jika anda nanti pada saat praktek jangan menggunakan submit gunakanlah button</h2>
+                <!--karena tombol sebenarnya bukan elemen input-->
+                <!--button adalah sebuah tombol-->
+                <button type="submit">kirim</button>
+        </form>
+    </body>
+</html>
